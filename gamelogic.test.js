@@ -4,6 +4,8 @@ test("displayWordSoFar should display an underscore followed by a space for each
   // ARRANGE
   const word = "javascript";
   const guesses = [];
+  console.log("Is dit word" + word)
+  console.log("Is dit guesses" + guesses)
 
   // ACT
   const displayedWord = displayWordSoFar(word, guesses);
